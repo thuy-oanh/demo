@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+div.first {
+    background: blue;
+    float: left;
+    height:1000px;
+    width: 650px;
+}
+.khung1{
+    background-color: #ffffff;
+    width:650px;
+    height:200px;
+    padding: 10px;
+    margin: 150px 100px 25px;
+   float: right;
+   border-radius: 40px;  
+ 
+}
+.khung2{
+    background-color: #ffffff;
+    width:650px;
+    height:200px;
+    padding: 10px;
+    margin: 25px 100px 25px;
+   float: right;
+   border-radius: 40px; 
+
+}
+.khung3{
+    background-color: #ffffff;
+    width:650px;
+    height:200px;
+    padding: 10px;
+    margin: 25px 100px;
+   float: right;
+   border-radius: 40px; 
+   vertical-align:auto;
+;
+}
+
+
+#avatar{
+    left:220px; top:0px;
+    position:relative;
+    border-radius:unset;
+   
+}
+p {text-indent: 30px;}

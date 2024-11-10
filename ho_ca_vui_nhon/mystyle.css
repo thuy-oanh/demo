@@ -1,0 +1,282 @@
+#shark{
+    left:100px; top:400px;
+    position: absolute;
+    animation-name: Shark;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Shark{
+    0% {left:100px; top:400px;}
+    20% {left:600px; top:400px;}
+    40% {left:1000px; top:300px;}
+    50% {left:1200px; top:50px;}
+    60% {left:1200px; top:100px;}
+    70% {left:800px; top:150px;} 
+    80% {left:500px; top:200px;}
+    90% {left:350px; top:300px;} 
+    100% {left:200px; top:400px; transform:scaleX(-1);}
+}
+
+
+
+
+
+
+
+.faintSchool2::before{
+    content:'';
+    position: absolute;
+    width:400px; height:136px;top:100%; left: 25%;
+    transform:scale(0.3);
+    background:url(./images/faintSchool.png) bottom no-repeat;
+    animation: FaintSchool2 20s linear infinite;
+    
+}
+.faintSchool2::after{
+    content:'';
+    position: absolute;
+    width:400px; height:136px;top:100%; left: 75%;
+    transform:scale(0.3);
+    background:url(./images/faintSchool.png) bottom no-repeat;
+    animation: FaintSchool2 25s linear infinite;  
+   
+}
+
+@keyframes FaintSchool2{
+    0% { bottom:100%; }
+    100% {top:calc(0% - 140px);  }
+}
+
+.faintSchool1{
+    position:absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0px;
+    z-index: 10;
+    overflow:hidden;
+}
+.faintSchool1::before{
+    content:'';
+    position: absolute;
+    width:400px; height:136px;top:100%; left: 0%;
+    transform:scale(0.3);
+    background:url(./images/faintSchool.png) bottom no-repeat;
+    animation: FaintSchool1 20s linear infinite;
+    animation-delay: 10s;
+}
+.faintSchool1::after{
+    content:'';
+    position: absolute;
+    width:400px; height:136px;top:100%; left: 50%;
+    transform:scale(0.3);
+    background:url(./images/faintSchool.png) bottom no-repeat;
+    animation: FaintSchool1 20s linear infinite;  
+    animation-delay: 10s;
+}
+
+@keyframes FaintSchool1{
+    0% { bottom:100%; }
+    100% {top:calc(0% - 140px);  }
+}
+
+#turtle{
+    left:100px; top:70px;
+    position: absolute;
+    animation-name: Turtle;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transform:scale(0.7);
+}
+@keyframes Turtle{
+    0% {left:100px; top:75px;}
+    20% {left:500px; top:75px;}
+    40% {left:900px; top:75px;}
+    50% {left:1200px; top:75px;}
+    60% {left:900px; top:75px;}
+    80% {left:500px; top:75px;}
+    100% {left:100px; top:75px; transform:scaleX(-0.8);}
+}
+#diver1{
+    left:0px; top:300px;
+    position: absolute;
+    animation-name: Diver1;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+   
+
+}
+@keyframes Diver1{
+    0% {left:0px; top:300px;}
+    12% {left:300px; top:500px;}
+    25% {left:600px; top:600px;}
+    37% {left:900px; top:550px;}
+    50% {left:1200px; top:300px;}
+    60% {left:960px; top:220px;}
+    70% {left:720px; top:140px;}
+    75% {left:600px; top:100px;} 
+    80% {left:480px; top:140px;}
+    90% {left:240px; top:220px;}
+    100% {left:0px; top:300px; transform:scaleX(-1);}
+}
+#diver2{
+    left:0px; top:0px;
+    position: absolute;
+    animation-name: Diver2;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Diver2{
+    0% {left:0px; top:0px;} 
+    5% {left:120px; top:100px;} 
+    10% {left:240px; top:50px; }
+    15% {left:360px; top:100px;} 
+    20% {left:480px; top:50px;}
+    25% {left:600px; top:100px;} 
+    30% {left:720px; top:50px;}
+    35% {left:840px; top:100px;} 
+    40% {left:960px; top:50px;}
+    45% {left:1080px; top:100px;} 
+    50% {left:1200px; top:50px;}
+    
+    100% {left:0px; top:0px;transform:scaleX(-1);}
+}       
+#diver3{
+    left:0px; top:0px;
+    position: absolute;
+    animation-name: Diver3;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+   
+
+}
+@keyframes Diver3{
+    0% {left:0px; top:50px;}
+    10% {left:240px; top:200px;}
+    20% {left:480px; top:400px;}
+
+    25% {left:600px; top:450px;}
+
+    30% {left:720px; top:460px;}
+    40% {left:960px; top:480px;}
+
+    50% {left:1200px; top:500px;}
+
+    60% {left:960px; top:480px;}
+    70% {left:720px; top:460px;}
+    75% {left:600px; top:450px}
+    90% {left:240px; top:200px;}
+    100% {left:0px; top:50px; transform:scaleX(-1);}
+}
+
+#goldFishSchool1{
+    left:100px; top:70px;
+    position: absolute;
+    animation-name: GoldFishSchool1;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transform:scale(0.7);
+}
+@keyframes GoldFishSchool1{
+    0% {left:100px; top:75px;}
+    20% {left:500px; top:75px;}
+    40% {left:900px; top:75px;}
+    50% {left:1200px; top:75px;}
+    60% {left:900px; top:75px;}
+    80% {left:500px; top:75px;}
+    100% {left:100px; top:75px; transform:scaleX(-0.5);}
+}
+
+#goldFishSchool2{
+    left:0px; top:300px;
+    position: absolute;
+    animation-name: GoldFishSchool2;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+   
+
+}
+@keyframes GoldFishSchool2{
+    0% {left:0px; top:300px;}
+    12% {left:300px; top:500px;}
+    25% {left:600px; top:600px;}
+    37% {left:900px; top:550px;}
+    50% {left:1200px; top:300px;}
+    60% {left:960px; top:220px;}
+    70% {left:720px; top:140px;}
+    75% {left:600px; top:100px;} 
+    80% {left:480px; top:140px;}
+    90% {left:240px; top:220px;}
+    100% {left:0px; top:300px; transform:scaleX(-0.5);}
+}
+#goldFishSchool3{
+    left:0px; top:350px;
+    position: absolute;
+    animation-name: GoldFishSchool3;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+   
+
+}
+@keyframes GoldFishSchool3{
+    0% {left:0px; top:350px;}
+   
+    50% {left:1400px; top:350px;}
+    100% {left:0px; top:350px; transform:scaleX(-1);}
+}
+#danca{
+    left:0px; top:400px;
+    position: absolute;
+    animation-name: Danca;
+    animation-duration: 50s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+   
+
+}
+@keyframes Danca{
+    0% {left:0px; top:400px;}
+   
+    50% {left:600px; top:50px;}
+    100% {left:0px; top:400px; transform:scaleX(-1);}
+}
+#whale{
+    left:0px; top:250px;
+    position: absolute;
+    animation-name: Whale;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+   
+
+}
+@keyframes Whale{
+    0% {left:0px; top:250px;}
+    10% {left:240px; top:10px;}
+    20% {left:480px; top:50px;}
+    25% {left:600px; top:0px;}
+    30% {left:720px; top:50px;}
+    40% {left:960px; top:100px;}
+    50% {left:1200px; top:250px;}
+    75% {left:600px; top:300px;}
+    100% {left:0px; top:250px; transform:scaleX(-1);}
+}
+
